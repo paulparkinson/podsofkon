@@ -36,7 +36,7 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 - AI Gen for content included 2d, 3d, audio, video, and streaming
 - Oracle Backend For Spring Boot (the backend uses Spring Boot already)
 - Oracle Backend For Mobile for mobile support
-- Globally Distributed Database
+- Globally Distributed Database as part of 99.999% reliability along with Oracle Database Saga Engine, Reservationless locking, Auto-compensating datatypes, and use in APEX workflow.
 - Spatial for VR
 - Spatial for MR
 - Haptics for XR
