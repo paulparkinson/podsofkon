@@ -5,6 +5,10 @@
 
 The game is built upon the [Simplify Microservices with Converged Oracle Database Workshop](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=637)
 
+The targets shot in the game map directly to actual Kubernetes deployment pods on the backend cluster.
+
+The backend logic for the game (the control plane if you will) is itself a (Spring Boot) microservice.
+
 The workshop uses the following languages and frameworks and many more.
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/languagesandframeworks.png)
