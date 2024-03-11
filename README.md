@@ -39,7 +39,7 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 - Haptics for XR
 
 
-### Contributions are extremely welcome and authors will be added to the game credits...
+### Contributions of source code or ideas are extremely welcome - authors will be added to the repos and game credits...
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pok-archdirectionsandgame.gif)
 

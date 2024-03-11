@@ -13,6 +13,8 @@ The workshop uses the same Unified Observability framework that is OpenTelemetry
 
 ## Related Material
 
- [DevOps to DataOps presentation](https://www.youtube.com/watch?v=eUFt3Pzwj30)
+[DevOps to DataOps presentation](https://www.youtube.com/watch?v=eUFt3Pzwj30)
+
+[Unified Observability: Metrics, Logs, and Tracing of App and Database Tiers in a Single Grafana Console](https://paul-parkinson.medium.com/unified-observability-metrics-logs-and-tracing-of-app-and-database-tiers-in-a-single-grafana-c7c974ddce18)
 
 
