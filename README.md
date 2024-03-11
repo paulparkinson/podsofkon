@@ -7,6 +7,7 @@ A retro video game built with Unity and Oracle Cloud Database, AI, and other tec
 
 [More info on all topics can be found in doc](https://github.com/paulparkinson/podsofkon/blob/main/doc/README.md)
 
+[Feel free to contact me directly with any issues or ideas](https://www.linkedin.com/in/pauldparkinson/)
 
 
 ## Things that are...
