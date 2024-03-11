@@ -1,16 +1,39 @@
 # Pods Of Kon Doc
 
-# Hardware requirements
+This is the main documentation page.
+From here you can go to pages on each of the topics below which will explain how the tech is used in the game and related material.
 
-- Laptop - still testing just how little power is necessary but the game is not resource intensive and runs on older mac and windows laptops
-- Atari 2600 Joysticks and an iCode USB adapter for them. No driver is needed. Standard keyboard mapping controls will also work but joysticks are more enjoyable and fit the retro motif.
-- Speakers - very important for any video game and there are spatial audio and 2 player sound aspects to the game that make good speakers a great enhancement.
-- Monitors - only one monitor is need to play the game, which is a two player split screen game, however, observability of the game from DevOps to DataOps, can be viewed in sync with gameplay on the separate monitor.
+[Requirements And Setup For Game](https://github.com/paulparkinson/podsofkon/blob/main/doc/requirementsandsetup.md)
 
-# Build
+[Building Or Downloading Game](https://github.com/paulparkinson/podsofkon/blob/main/doc/build.md)
 
-- mvn install for the Java backend
-- load the Unity frontend into Unity editor and simply select the platform to build to. 
+[Multi-language support, Microservices, and Kubernetes](https://github.com/paulparkinson/podsofkon/blob/main/doc/microservices.md)
 
-# YouTube
+[AI](https://github.com/paulparkinson/podsofkon/blob/main/doc/ai.md)
+
+[Messaging, Event-Driven Patterns with TxEventQ (formerly AQ) and Kafka](https://github.com/paulparkinson/podsofkon/blob/main/doc/messaging.md)
+
+["DevOps to DataOps" Oracle End to End OpenTelemetry Solution](https://github.com/paulparkinson/podsofkon/blob/main/doc/observability.md)
+
+
+[Sagas](https://github.com/paulparkinson/podsofkon/blob/main/doc/sagas.md)
+
+
+[Spatial](https://github.com/paulparkinson/podsofkon/blob/main/doc/spatial.md)
+
+
+[XR](https://github.com/paulparkinson/podsofkon/blob/main/doc/xr.md)
+
+
+
+## YouTube
 [Pods Of Kon YouTube channel/playlist] (https://www.youtube.com/playlist?list=PLc-GvTDCJw-KdepJm_BOE31jRrw6her2d)
+
+
+## All blogs
+
+https://medium.com/@paul-parkinson
+https://dzone.com/users/4571557/paulparkinson.html
+https://hackernoon.com/u/paulparkinson
+https://blogs.oracle.com/authors/paulparkinson
+https://dev.to/paulparkinson

@@ -1,5 +1,12 @@
 # AI - making AI calls from the database, using Vector data type, and Select AI
 
+## How Oracle tech is or will be used in the game
+
+AI is used for leaderboard opponent image generation.
+
+AI will be used for asset creation including 2d, 3d, audio, video, haptics, ...
+
+## Related Material
 
 [See Blog Here](https://www.linkedin.com/feed/update/urn:li:activity:7150165193816227841/)
 

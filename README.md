@@ -3,19 +3,20 @@
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/podsofkonmarquee.png)
 
 ## What is it?
-A retro video game built with Unity and Oracle Cloud Database, AI, and other tech... [See more](https://github.com/paulparkinson/podsofkon/blob/main/doc/README.md)
+A retro video game built with Unity and Oracle Cloud Database, AI, and other tech... 
+[More info on all topics can be found in doc](https://github.com/paulparkinson/podsofkon/blob/main/doc/README.md)
 
 
 
 ## Things that are...
 Features that exist now...
-- Various OKE Kubernetes functionality (health probes, scaling, etc.) [See more](https://www.oracle.com/cloud/cloud-native/container-engine-kubernetes/)
-- “OraOperator” database k8s operator for database lifecycle [See more](https://github.com/oracle/oracle-database-operator)
-- Database access in multiple languages and platforms (Java, Spring Boot, .NET, JavaScript, Go, Python, Rust, WASM, ...) [See more](https://github.com/paulparkinson/podsofkon/blob/main/doc/microservices.md)
+- Various OKE Kubernetes functionality (health probes, scaling, etc.) 
+- “OraOperator” database k8s operator for database lifecycle
+- Database access in multiple languages and platforms (Java, Spring Boot, .NET, JavaScript, Go, Python, Rust, WASM, ...)
 - MicroTx and Oracle Database Saga products as well as reservation-less locking and auto-compensating datatypes.
-- Oracle OpenTelemetry Observability [See more](https://github.com/paulparkinson/podsofkon/blob/main/doc/observability.md)
+- Oracle OpenTelemetry Observability 
 - Oracle TeQ/Kafka messaging for Transactional Outbox, Event Sourcing, Exactly Once Delivery, etc. 
-- Oracle Spatial [See more](https://www.youtube.com/playlist?list=PLc-GvTDCJw-LrG0h7RtmyKTh7SmG9ZVfd)
+- Oracle Spatial 
 
 
 
@@ -26,8 +27,10 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 
 
 ## Some things that have not yet come to pass...
+- True Cache for Multi-player online (cross platform: phone, computer, XR)
 - AI for player vs computer
-- True Cache for Multi-player online
+- AI Gen for content included 2d, 3d, audio, video, and streaming
+- Oracle Backend For Spring Boot (the backend uses Spring Boot already)
 - Oracle Backend For Mobile for mobile support
 - Globally Distributed Database
 - Spatial for VR
