@@ -12,5 +12,5 @@
 - mvn install for the Java backend
 - load the Unity frontend into Unity editor and simply select the platform to build to. 
 
-# Pods Of Kon YouTube channel/playlist 
-https://www.youtube.com/playlist?list=PLc-GvTDCJw-KdepJm_BOE31jRrw6her2d
+# YouTube
+[Pods Of Kon YouTube channel/playlist] (https://www.youtube.com/playlist?list=PLc-GvTDCJw-KdepJm_BOE31jRrw6her2d)

@@ -6,20 +6,23 @@
 A retro video game built with Unity and Oracle Cloud Database, AI, and other tech... [See more](https://github.com/paulparkinson/podsofkon/blob/main/doc/README.md)
 
 
+
 ## Things that are...
 Features that exist now...
 - Various OKE Kubernetes functionality (health probes, scaling, etc.) [See more](https://www.oracle.com/cloud/cloud-native/container-engine-kubernetes/)
 - “OraOperator” database k8s operator for database lifecycle [See more](https://github.com/oracle/oracle-database-operator)
-- Database access in multiple languages and platforms (Java, Spring Boot, .NET, JavaScript, Go, Python, Rust, WASM, ...) (https://github.com/paulparkinson/podsofkon/blob/main/doc/microservices.md)
+- Database access in multiple languages and platforms (Java, Spring Boot, .NET, JavaScript, Go, Python, Rust, WASM, ...) [See more](https://github.com/paulparkinson/podsofkon/blob/main/doc/microservices.md)
 - MicroTx and Oracle Database Saga products as well as reservation-less locking and auto-compensating datatypes.
-- Oracle OpenTelemetry Observability (https://github.com/paulparkinson/podsofkon/blob/main/doc/observability.md)
+- Oracle OpenTelemetry Observability [See more](https://github.com/paulparkinson/podsofkon/blob/main/doc/observability.md)
 - Oracle TeQ/Kafka messaging for Transactional Outbox, Event Sourcing, Exactly Once Delivery, etc. 
 - Oracle Spatial [See more](https://www.youtube.com/playlist?list=PLc-GvTDCJw-LrG0h7RtmyKTh7SmG9ZVfd)
+
 
 
 ## Things that were...
 Retro references in the game...
 Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cylons, Activision, IMagic, ...
+
 
 
 ## Some things that have not yet come to pass...
@@ -36,7 +39,8 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pok-archdirectionsandgame.gif)
 
-![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pok-archdirectionsandgame.gif)
+
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pokarcade.png)
 
 
 ## Licensing
