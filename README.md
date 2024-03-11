@@ -53,9 +53,13 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 ## Blogs
 
 https://medium.com/@paul-parkinson
+
 https://dzone.com/users/4571557/paulparkinson.html
+
 https://hackernoon.com/u/paulparkinson
+
 https://blogs.oracle.com/authors/paulparkinson
+
 https://dev.to/paulparkinson
 
 ## Licensing
