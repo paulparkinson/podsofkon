@@ -4,6 +4,7 @@
 
 ## What is it?
 A retro video game built with Unity and Oracle Cloud Database, AI, and other tech... 
+
 [More info on all topics can be found in doc](https://github.com/paulparkinson/podsofkon/blob/main/doc/README.md)
 
 
@@ -61,4 +62,5 @@ The assets (including audio files, 3D models, textures, pictures, and videos) in
 To use the source code and assets in your projects, please adhere to the licensing terms specified above. If you have any questions about licensing or need clarification, feel free to contact me.
 
 This repos...
+
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/bit.ly_podsofkon.png)
