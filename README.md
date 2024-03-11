@@ -14,10 +14,12 @@ Features that exist now...
 - Various OKE Kubernetes functionality (health probes, scaling, etc.) 
 - “OraOperator” database k8s operator for database lifecycle
 - Database access in multiple languages and platforms (Java, Spring Boot, .NET, JavaScript, Go, Python, Rust, WASM, ...)
+- Database access in multiple data types (Relational and JSON (JSON Duality), Spatial, Graph, ...)
 - MicroTx and Oracle Database Saga products as well as reservation-less locking and auto-compensating datatypes.
 - Oracle OpenTelemetry Observability 
 - Oracle TeQ/Kafka messaging for Transactional Outbox, Event Sourcing, Exactly Once Delivery, etc. 
-- Oracle Spatial 
+- Oracle Spatial for 3d model operations, storage, and retime streaming.
+- Oracle Database for content management of all assets
 
 
 
@@ -28,7 +30,7 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 
 
 ## Some things that have not yet come to pass...
-- True Cache for Multi-player online (cross platform: phone, computer, XR)
+- True Cache and Oracle DB Mobile Backend for Multi-player online (cross platform: phone, computer, XR)
 - AI for player vs computer
 - AI Gen for content included 2d, 3d, audio, video, and streaming
 - Oracle Backend For Spring Boot (the backend uses Spring Boot already)
@@ -46,6 +48,14 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pokarcade.png)
 
+
+## Blogs
+
+https://medium.com/@paul-parkinson
+https://dzone.com/users/4571557/paulparkinson.html
+https://hackernoon.com/u/paulparkinson
+https://blogs.oracle.com/authors/paulparkinson
+https://dev.to/paulparkinson
 
 ## Licensing
 

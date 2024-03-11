@@ -32,7 +32,7 @@ From here you can go to pages on each of the topics below which will explain how
 [Pods Of Kon YouTube channel/playlist] (https://www.youtube.com/playlist?list=PLc-GvTDCJw-KdepJm_BOE31jRrw6her2d)
 
 
-## All blogs
+## Blogs
 
 https://medium.com/@paul-parkinson
 https://dzone.com/users/4571557/paulparkinson.html
