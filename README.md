@@ -1,6 +1,6 @@
 # Pods Of Kon
 
-![](https://github.com/paulparkinson/podsofkon/doc/images/podsofkonmarquee.png)
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/podsofkonmarquee.png)
 
 ## What is it?
 A retro video game built with Unity and Oracle Cloud Database, AI, and other tech...
@@ -34,7 +34,7 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 
 ### Contributions are extremely welcome and authors will be added to the game credits...
 
-![](https://github.com/paulparkinson/podsofkon/doc/images/pok-archdirectionsandgame-ezgif.com-video-to-gif-converter)
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pok-archdirectionsandgame.gif)
 
 
 ## Licensing
@@ -52,4 +52,4 @@ The assets (including audio files, 3D models, textures, pictures, and videos) in
 To use the source code and assets in your projects, please adhere to the licensing terms specified above. If you have any questions about licensing or need clarification, feel free to contact me.
 
 This repos...
-![](https://github.com/paulparkinson/podsofkon/doc/images/bit.ly_podsofkon.png)
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/bit.ly_podsofkon.png)
