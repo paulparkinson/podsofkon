@@ -1,10 +1,12 @@
 # Pods Of Kon
 
-# What is it?
+![](https://github.com/paulparkinson/podsofkon/doc/images/podsofkonmarquee.png)
+
+## What is it?
 A retro video game built with Unity and Oracle Cloud Database, AI, and other tech...
 
 
-# Things that are...
+## Things that are...
 Features that exist now...
 - Various OKE Kubernetes functionality (health probes, scaling, etc.)
 - “OraOperator” database k8s operator
@@ -15,12 +17,12 @@ Features that exist now...
 - Oracle Spatial
 
 
-# Things that were...
+## Things that were...
 Retro references in the game...
 Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cylons, Activision, IMagic, ...
 
 
-# Some things that have not yet come to pass...
+## Some things that have not yet come to pass...
 - AI for player vs computer
 - True Cache for Multi-player online
 - Oracle Backend For Mobile for mobile support
@@ -32,7 +34,7 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 
 ### Contributions are extremely welcome and authors will be added to the game credits...
 
-
+![](https://github.com/paulparkinson/podsofkon/doc/images/pok-archdirectionsandgame-ezgif.com-video-to-gif-converter)
 
 
 ## Licensing
@@ -48,3 +50,6 @@ The assets (including audio files, 3D models, textures, pictures, and videos) in
 ## Usage
 
 To use the source code and assets in your projects, please adhere to the licensing terms specified above. If you have any questions about licensing or need clarification, feel free to contact me.
+
+This repos...
+![](https://github.com/paulparkinson/podsofkon/doc/images/bit.ly_podsofkon.png)
