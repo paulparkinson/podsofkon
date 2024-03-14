@@ -2,6 +2,8 @@
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/podsofkonmarquee.png)
 
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/architecture-of-game.png)
+
 ## What is it?
 A retro video game built with Unity and Oracle Cloud Database, AI, and other tech... 
 
