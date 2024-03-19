@@ -9,6 +9,27 @@ From here you can go to pages on each of the topics below which will explain how
 
 
 
+## Overall Flow Of Game
+
+•	Unity front end calls into Oracle Database and Pods of Kon Kubernetes microservice running in OKE
+
+•	Database has been provision and maintained by Oracle Database Operator (OraOpertor)
+
+•	Pods Of Kon microservice sends requests to “GrabDish” microservice application which uses
+
+•	Database access in multiple data types (Relational and JSON (JSON Duality), Spatial, Graph, ...)
+
+•	TxEventQ/Kafka event-driven microservice patterns: Transactional Outbox, CQRS, Event Sourcing, and Saga
+
+•	Database serves as overall content management system for all media types in the game but also…
+
+•	Spatial in Oracle Database uses geometry on 3d models to resize, etc. and streams them to frontend
+
+•	Oracle Unified OpenTelemetry Observability for end-to-end metrics, logs, and tracing.
+
+•	Oracle Database makes calls out to other AI services for content generation.
+
+
 ## Topics
 [Multi-language support, Microservices, and Kubernetes](https://github.com/paulparkinson/podsofkon/blob/main/doc/microservices.md)
 
