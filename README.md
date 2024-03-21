@@ -11,6 +11,8 @@ A retro video game built with Unity and Oracle Cloud Database, AI, and other tec
 
 [Feel free to contact me directly with any issues or ideas](https://www.linkedin.com/in/pauldparkinson/)
 
+Get the free Oracle database here... either... [Autonomous Cloud Database](https://bit.ly/4aeRuEW) or [Oracle Database Free (image or install)](https://bit.ly/3VnQ3zP)
+
 
 ## Things that are...
 Features that exist now...
