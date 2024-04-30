@@ -48,20 +48,37 @@ public class MyCharacter : MonoBehaviour
 
     void OnEnable()
     {
-        Debug.Log("~~~awake playerId:" + playerId);
-        Debug.Log("~~~awake is instructions1 scene:" + (sceneName == "instructions1"));
+    //    Debug.Log("~~~OnEnable  sceneName:" + sceneName + "playerId:" + playerId);
         player = ReInput.players.GetPlayer(playerId);
-        if (sceneName == "instructions1")
+        if (sceneName == "directions1")
+        {
+            ScoreKeeper.getInstance().SetPlayerNames();
+        }
+        if (sceneName == "thanks")
         {
             ScoreKeeper.getInstance().Reset();
-            ScoreKeeper.getInstance().SetPlayerNames();
+        }
+        if (sceneName == "architecture")
+        {
+            ScoreKeeper.getInstance().ResetScore();
         }
     }
 
     private void Start()
     {
         animator = GetComponent<Animator>();
-        Debug.Log("animator:" + animator);
+   //     Debug.Log("~~~OnEnable  sceneName == \"architecture\":" + (sceneName == "architecture"));
+   if (sceneName == "architecture")
+   {
+       InvokeRepeating("PerformTask", 0f, 4f);
+   }
+  //      Debug.Log("animator:" + animator);
+    }
+    
+
+    void PerformTask()
+    {
+        ScoreKeeper.getInstance().SetPlayerNames();
     }
 
     void Update()

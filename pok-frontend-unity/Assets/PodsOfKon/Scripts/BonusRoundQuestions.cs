@@ -24,7 +24,7 @@ public class BonusRoundQuestions : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(GetRequest(EnvProperties.bankendAddress + "/podsofkon/questions", true));
+        if(!EnvProperties.isOffline) StartCoroutine(GetRequest(EnvProperties.bankendAddress + "/podsofkon/questions", true));
     }
 
     IEnumerator GetRequest(string uri, bool isProcessQuestion)

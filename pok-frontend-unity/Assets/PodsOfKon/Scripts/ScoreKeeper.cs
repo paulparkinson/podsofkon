@@ -53,14 +53,26 @@ public class ScoreKeeper : MonoBehaviour
         architectureScreenPlayerNames.text = player1Name + " vs " + player2Name;
     }
     
-    public void Reset() //called as part of opening/architecture scene
+    public void Reset() //called as part of thanks scene
     {
-        Debug.Log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Reset");
+      //  Debug.Log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Reset");
         StartCoroutine(GetRequest(
             EnvProperties.bankendAddress + "/podsofkon/movescores?" +
             "player1Name="+player1Name +"&player2Name="+player2Name+
             "&player1Score="+player1Score +"&player2Score="+player2Score, false, false));
-        
+
+        player1ScoreText.text = player1Name + ": \n" + player1Score;
+        player1ScoreTextBonusPage.text = player1Name + ": \n" + player1Score;
+        player1ScoreTextTYPage.text = player1Name + ": \n" + player1Score;
+        player2ScoreText.text = player2Name + ": \n" + player2Score;
+        player2ScoreTextBonusPage.text = player2Name + ": \n" + player2Score;
+        player2ScoreTextTYPage.text = player2Name + ": \n" + player2Score;
+    }
+    
+    public void ResetScore() //called as part of opening/architecture scene
+    {
+        player1Score = 0;
+        player2Score = 0;
         player1ScoreText.text = player1Name + ": \n" + player1Score;
         player1ScoreTextBonusPage.text = player1Name + ": \n" + player1Score;
         player1ScoreTextTYPage.text = player1Name + ": \n" + player1Score;
@@ -109,7 +121,7 @@ public class ScoreKeeper : MonoBehaviour
     }
 
     public void Update()
-    {
+    {  
         if (isChangesToPersist) 
         { 
             isChangesToPersist = false;
@@ -121,6 +133,7 @@ public class ScoreKeeper : MonoBehaviour
     
     public IEnumerator GetRequest(string uri, bool isSetPlayer1Name, bool isSetPlayer2Name)
     {
+        if (EnvProperties.isOffline) yield return null;
         using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
         {
 #if UNITY_EDITOR
@@ -139,7 +152,7 @@ public class ScoreKeeper : MonoBehaviour
                     Debug.LogError(uri + ": HTTP Error: " + webRequest.error);
                     break;
                 case UnityWebRequest.Result.Success:
-                    Debug.Log(uri + ":\nReceived: " + webRequest.downloadHandler.text);
+            //        Debug.Log(uri + ":\nReceived: " + webRequest.downloadHandler.text);
                     if (isSetPlayer1Name) player1Name = webRequest.downloadHandler.text;
                     else if (isSetPlayer2Name) player2Name = webRequest.downloadHandler.text;
                     break;
