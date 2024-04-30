@@ -9,6 +9,11 @@ A retro video game built with Unity and Oracle Cloud Database, AI, and other tec
 
 [More info on all topics can be found in doc](https://github.com/paulparkinson/podsofkon/blob/main/doc/README.md)
 
+Latest double-click-and-play/ready-to-go builds/binaries: [Windows](https://bit.ly/3wfzHis) [Mac]() 
+
+*See doc for details on settings and building.
+
+
 [Feel free to contact me directly with any issues or ideas](https://www.linkedin.com/in/pauldparkinson/)
 
 The Oracle Database is FREE! Get the [Autonomous Cloud Database](https://bit.ly/4aeRuEW) or [Docker Image](https://bit.ly/3VnQ3zP)
