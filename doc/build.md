@@ -13,7 +13,7 @@
 2. Run `mvn install` 
 3. Run `java -jar target/podsofkon.jar` for the Java backend
 4. If deploying to k8s, set docker registry and kubectl environment, run ./build.sh and ./deploy.sh
-    - The simplest way to setup the k8s cluster and database is to run the "Simply Microservices with Oracle Converged Database" Livelab: https://apexapps.oracle.com/pls/apex/f?p=133:180:132654363894991::::wid:637
+    - The simplest way to setup the k8s cluster and Oracle Database 23ai is to run the "Simply Microservices with Oracle Converged Database" Livelab: https://apexapps.oracle.com/pls/apex/f?p=133:180:132654363894991::::wid:637
 
 ### Frontend Build
 
