@@ -16,8 +16,12 @@ Latest double-click-and-play/ready-to-go builds/binaries: [Windows](https://bit.
 
 [Feel free to contact me directly with any issues or ideas](https://www.linkedin.com/in/pauldparkinson/)
 
-The Oracle Database is FREE! Get the [Autonomous Cloud Database](https://bit.ly/4aeRuEW) or [Docker Image](https://bit.ly/3VnQ3zP)
+Just like this game it's built on, the Oracle Database is FREE! Get the [Autonomous Cloud Database](https://bit.ly/4aeRuEW) or [Docker Image](https://bit.ly/3VnQ3zP)
 
+
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pok-cartridgein2600.jpg)
+
+[YouTube Channel](https://www.youtube.com/channel/UCwUrfYHDOLIGbEy3uV0yD0Q)
 
 ## Things that are...
 Features that exist now...
@@ -51,7 +55,7 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 - Oracle For Haptics for XR
 
 
-### Contributions of source code or ideas are extremely welcome - authors will be added to the repos and game credits...
+### Contributions of source code, assets, or ideas are extremely welcome - authors will be added to the repos and game credits...
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pok-archdirectionsandgame.gif)
 
