@@ -2,6 +2,8 @@
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/podsofkonmarquee.png)
 
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pokgameplay.mp4)
+
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/architecture-of-game.png)
 
 ## What is it?
@@ -62,6 +64,7 @@ Tron, Atari, Space Invaders, Asteroids, Defender, Galaga, Adventure, Pac-man, Cy
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pokarcade.png)
 
+![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pok-cartridge-top.png)
 
 ## Blogs
 
