@@ -2,7 +2,9 @@
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/podsofkonmarquee.png)
 
-![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/pokgameplay.mp4)
+
+https://github.com/paulparkinson/podsofkon/assets/29385800/39cc0583-41df-4f0c-8f07-c685b1201816
+
 
 ![](https://github.com/paulparkinson/podsofkon/blob/main/doc/images/architecture-of-game.png)
 
