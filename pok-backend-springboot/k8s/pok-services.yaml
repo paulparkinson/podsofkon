@@ -2,13 +2,13 @@ apiVersion: v1
 kind: Service
 metadata:
   name: podsofkon
-  namespace: msdataworkshop
+  namespace: podsofkon
 spec:
   ports:
     - protocol: TCP
       port: 80
       targetPort: 8080
-      nodePort: 32462
+#      nodePort: 32462
   selector:
     app: podsofkon
   type: LoadBalancer

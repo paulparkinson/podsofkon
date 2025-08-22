@@ -1,7 +1,13 @@
-# FROM adoptopenjdk:11-jdk-hotspot
-# FROM openjdk:11-jre-slim
-#FROM openjdk:17-oracle
-FROM docker.io/library/openjdk:17-oracle
+# Stage 1: Build the app
+FROM --platform=linux/amd64 maven:3.9.4-eclipse-temurin-17 AS maven_build
+WORKDIR /build
+COPY pom.xml .
+COPY src ./src
+RUN mvn clean package -DskipTests
 
-ADD target/podsofkon-0.0.1-SNAPSHOT.jar /usr/share/podsofkon/podsofkon.jar
-ENTRYPOINT ["java", "-jar", "/usr/share/podsofkon/podsofkon.jar"]
+# Stage 2: Run the app
+FROM --platform=linux/amd64 eclipse-temurin:17-jre
+WORKDIR /app
+COPY --from=maven_build /build/target/*.jar app.jar
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "app.jar"]

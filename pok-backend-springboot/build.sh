@@ -4,7 +4,7 @@ set -e
 
 IMAGE_NAME=podsofkon
 #IMAGE_VERSION=latest
-IMAGE_VERSION=0.2
+IMAGE_VERSION=2025.AUG.21
 #DOCKER_REGISTRY=us-ashburn-1.ocir.io/oradbclouducm/gd74087885
 DOCKER_REGISTRY=us-ashburn-1.ocir.io/oradbclouducm/podsofkon
 
@@ -14,8 +14,9 @@ export IMAGE_VERSION=$IMAGE_VERSION
 mvn clean package
 
 #docker buildx build --platform linux/amd64,linux/arm64 -t $IMAGE .
-podman build -t=$IMAGE .
+#podman build -t=$IMAGE .
 #docker buildx build --platform=linux/amd64 -t=$IMAGE .
+podman buildx build --platform linux/amd64 -t $IMAGE .
 
 #docker push --platform linux/amd64  "$IMAGE"
 podman push "$IMAGE"

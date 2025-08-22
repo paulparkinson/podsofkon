@@ -17,13 +17,11 @@ spec:
       volumes:
         - name: creds
           secret:
-            secretName: order-db-tns-admin-secret
+            secretName: podsofkon-db-tns-admin-secret
             defaultMode: 420
       containers:
         - name: podsofkon
-          image: us-ashburn-1.ocir.io/<your_repos_location>/podsofkon:0.1
-#          image: us-ashburn-1.ocir.io/oradbclouducm/podsofkon/podsofkon:0.2
-#          image: us-ashburn-1.ocir.io/oradbclouducm/gd74087885/xr-admin:0.1
+          image: us-ashburn-1.ocir.io/oradbclouducm/podsofkon/podsofkon:2025.AUG.21
           ports:
             - name: http
               containerPort: 8080
@@ -38,7 +36,7 @@ spec:
             - name: spring.datasource.url
               value: jdbc:oracle:thin:@gd740878851_tp?TNS_ADMIN=/podsofkon/creds
             - name: spring.datasource.password
-              value: <yourpassword>
+              value: <yourpasswordorsecret>
           resources: {}
           volumeMounts:
             - name: creds
